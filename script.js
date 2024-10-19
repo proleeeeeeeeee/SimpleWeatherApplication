@@ -43,7 +43,7 @@ async function getWeather(city) {
             cityWeatherIcon.src = "images/drizzle.png";
         }
         // weatherSection.style.display = "block";
-        if(!weatherNotFoundSection.classList.contain('hidden)){
+        if(!weatherNotFoundSection.classList.contain('hidden')){
             weatherNotFoundSection.classList.add('hidden');
         }
         weatherSection.classList.remove('hidden');
